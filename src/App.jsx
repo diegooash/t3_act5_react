@@ -4,9 +4,7 @@ import Encabezado from './components/Encabezado';
 import Partido from './components/Partido';
 
 function App() {
-  const [jornada, setJornada] = useState([
-    { id: 1, local: "México", visitante: "Brasil" }
-  ]);
+  const [jornada, setJornada] = useState([]);
   const [nuevoLocal, setNuevoLocal] = useState('');
   const [nuevoVisitante, setNuevoVisitante] = useState('');
 
