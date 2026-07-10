@@ -37,7 +37,8 @@ Conceptos de React aplicados en el código
 Para cumplir con los objetivos de aprendizaje de la actividad, la aplicación implementa los siguientes fundamentos:
 1.  **Componentes Funcionales:** La interfaz está dividida en piezas de código reutilizables y organizadas (ej. `<App />`, `<Encabezado />`, `<Partido />`).
 2.  **Props (Propiedades):** Se comunican datos entre componentes. Por ejemplo, el componente padre (`App`) le envía al componente hijo (`Partido`) el nombre de los equipos y la función para finalizar el encuentro.
-3.  **Estado (useState):** * *Estado Global:* Se usa en `App.jsx` para almacenar y actualizar el arreglo de todos los partidos activos.
+3.  **Estado (useState):**
+    * *Estado Global:* Se usa en `App.jsx` para almacenar y actualizar el arreglo de todos los partidos activos.
     * *Estado Local:* Se usa en `Partido.jsx` para llevar la cuenta de los goles de cada equipo.
 4.  **Renderizado Dinámico y Keys:** Se utiliza la función `.map()` de JavaScript para recorrer el arreglo de partidos y renderizar un componente `<Partido />` por cada uno, asignándoles una propiedad `key` única generada con `Date.now()` para optimizar el rendimiento.
 5.  **Manejo de Eventos:** Implementación de eventos de React como `onClick` para los botones de goles/eliminar, y `onSubmit` para el formulario.
